@@ -1,0 +1,11 @@
+# Example whipper configuration for HL-DT-ST DVDRAM GT30N
+# Calibrate your own drive offset first:
+#   whipper drive analyze
+#   whipper offset find
+
+[drive:HL-DT-ST%3ADVDRAM%20GT30N%20%20%20%20%3ATZ02]
+vendor = HL-DT-ST
+model = DVDRAM GT30N
+release = TZ02
+defeats_cache = True
+read_offset = 103

@@ -1,0 +1,6 @@
+*.flac
+*.cue
+*.log
+*.m3u
+__pycache__/
+.DS_Store
